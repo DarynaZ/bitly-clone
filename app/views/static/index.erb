@@ -5,5 +5,5 @@
  </form>
 
 <% @urls.each do |url| %>
-  <%= url.long_url %>  <%= <a href="self.url.short_url> %>
+  <%= url.long_url %>  <a href="<%= url.short_url %>"><%= url.short_url %></a>
 <% end %>
